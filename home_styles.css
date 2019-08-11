@@ -1,0 +1,131 @@
+
+
+/* nav bar affix*/
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 80px;
+  }
+/* nav bar affix */
+
+/* nav bar*/
+#nav {
+     z-index:9999;
+}
+.navbrand {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+    color: white;
+    margin-left: 5em;
+}
+.nav{
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+li{
+    margin-right: 30px;
+}
+ul.nav li{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80%;
+}
+ul.nav li a, ul.nav li a:visited {
+    color: grey !important;
+}
+ul.nav li a:hover, ul.nav li a:active {
+    color: white !important;
+    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px darkblue;
+}
+.nav-logo {
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+#selected {
+    color: white !important; 
+}
+/* nav bar */
+
+/* --------------------------------------------- banner area -------------------------------------------- */
+#banner {
+    background: url(pixel_mountain.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 65em;
+}
+#banner-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 400%;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.intro {
+    margin-top: 20em;
+    position: relative;
+    text-align: center;
+    color: dimgrey;
+}
+
+/* main body */
+h2 {
+font-family: 'Press Start 2P', cursive;
+font-size: 190%;
+text-align: center;
+}
+p {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: large;
+    margin-top: 50px;
+}
+#welcome {
+    margin-top: 50px;
+}
+#blog-main {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog-img { 
+    width:100%; 
+}
+/* Media Styles */
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+.page-header{
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+.blog-post {
+    border-color: black;
+    margin-top:2%;
+    height: 100%;
+    background-color: #90A8C1;
+    box-shadow: 10px 10px 5px #888888; 
+}
